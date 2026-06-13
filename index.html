@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RoboGame 搭车日志</title>
+    <meta
+      name="description"
+      content="RoboGame 团队比赛搭车、备赛、路途和生活记录网页。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+SC:wght@400;500;600;700&family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-mark" aria-hidden="true">RG</span>
+        <span>RoboGame 搭车日志</span>
+      </a>
+      <nav class="top-nav" aria-label="主要导航">
+        <a href="#route">路线</a>
+        <a href="#moments">照片</a>
+        <a href="#video">视频</a>
+        <a href="#team">队伍</a>
+        <a href="#archive">归档</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <div class="route-line"></div>
+          <div class="route-dot dot-a"></div>
+          <div class="route-dot dot-b"></div>
+          <div class="route-dot dot-c"></div>
+          <div class="bus-card">
+            <div class="bus-window"></div>
+            <div class="bus-window"></div>
+            <div class="bus-window"></div>
+            <div class="bus-body"></div>
+          </div>
+        </div>
+        <div class="hero-copy" data-reveal>
+          <p class="kicker">2026 RoboGame Team Journal</p>
+          <h1 id="hero-title">把去比赛的路，也认真记录下来。</h1>
+          <p>
+            这里会慢慢收集我们 3 位女生、2 位男生一起搭车、备赛、赶路、
+            吃饭、复盘和庆祝的片段。照片和视频之后会替换进来，先用这一版把
+            故事的骨架搭好。
+          </p>
+          <div class="hero-actions" aria-label="页面快捷入口">
+            <a class="button primary" href="#moments">查看照片位</a>
+            <a class="button secondary" href="#route">浏览旅程线</a>
+          </div>
+        </div>
+        <aside class="ticket" aria-label="比赛行程票" data-reveal>
+          <div>
+            <span>出发</span>
+            <strong>校园 / 实验室</strong>
+          </div>
+          <div>
+            <span>目的地</span>
+            <strong>RoboGame 赛场</strong>
+          </div>
+          <div>
+            <span>乘客</span>
+            <strong>5 人小队</strong>
+          </div>
+          <div class="ticket-code">RG-2026-ROAD</div>
+        </aside>
+      </section>
+
+      <section id="route" class="section route-section" aria-labelledby="route-title">
+        <div class="section-title" data-reveal>
+          <h2 id="route-title">搭车路线与当天节奏</h2>
+          <p>
+            参考 iGEM Wiki 的叙事方式，把过程拆成能持续补充的阶段：
+            出发、路上、抵达、比赛、回程。每一段都留出照片、文字和链接位置。
+          </p>
+        </div>
+        <div class="route-grid">
+          <article class="route-stop" data-reveal>
+            <time datetime="2026-00-00">07:30</time>
+            <h3>集合上车</h3>
+            <p>占位文字：记录谁带了工具箱、谁负责点名、第一张合照放在这里。</p>
+          </article>
+          <article class="route-stop" data-reveal>
+            <time datetime="2026-00-00">09:10</time>
+            <h3>路途片段</h3>
+            <p>占位文字：车上聊天、补觉、检查机器人零件、沿途风景。</p>
+          </article>
+          <article class="route-stop" data-reveal>
+            <time datetime="2026-00-00">11:40</time>
+            <h3>抵达赛场</h3>
+            <p>占位文字：入场签到、搬运设备、第一次看到比赛场地的心情。</p>
+          </article>
+          <article class="route-stop" data-reveal>
+            <time datetime="2026-00-00">15:20</time>
+            <h3>赛后复盘</h3>
+            <p>占位文字：把问题、经验、好笑瞬间和下次改进写下来。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="moments" class="section gallery-section" aria-labelledby="moments-title">
+        <div class="section-title compact" data-reveal>
+          <h2 id="moments-title">照片相册占位</h2>
+          <p>之后把 `assets/photos/` 中的照片替换进来；现在先保留不同尺寸的画幅。</p>
+        </div>
+        <div class="photo-board" aria-label="未来照片位置">
+          <figure class="photo-slot large" data-reveal>
+            <div class="placeholder">
+              <span>工作照 / 大图</span>
+            </div>
+            <figcaption>机器人调试、队员协作或赛场全景。</figcaption>
+          </figure>
+          <figure class="photo-slot" data-reveal>
+            <div class="placeholder warm">
+              <span>车上花絮</span>
+            </div>
+            <figcaption>搭车路上的生活记录。</figcaption>
+          </figure>
+          <figure class="photo-slot tall" data-reveal>
+            <div class="placeholder coral">
+              <span>竖版照片</span>
+            </div>
+            <figcaption>适合手机拍摄的人物照。</figcaption>
+          </figure>
+          <figure class="photo-slot" data-reveal>
+            <div class="placeholder mint">
+              <span>赛场瞬间</span>
+            </div>
+            <figcaption>比赛、搬运、等待上场。</figcaption>
+          </figure>
+          <figure class="photo-slot wide" data-reveal>
+            <div class="placeholder yellow">
+              <span>合影横图</span>
+            </div>
+            <figcaption>团队合照或颁奖照。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="video" class="section video-section" aria-labelledby="video-title">
+        <div class="video-copy" data-reveal>
+          <h2 id="video-title">视频留白区</h2>
+          <p>
+            这里可以放比赛 vlog、机器人运行片段、采访短片或 B 站/YouTube
+            嵌入视频。当前版本保留 16:9 主视频位和三个短视频位。
+          </p>
+        </div>
+        <div class="video-layout">
+          <div class="video-slot main-video" role="img" aria-label="主视频占位" data-reveal>
+            <button class="play-button" type="button" aria-label="视频占位按钮"></button>
+            <span>主视频 / 16:9</span>
+          </div>
+          <div class="clip-list" aria-label="短视频占位">
+            <div class="clip-slot" data-reveal>出发前</div>
+            <div class="clip-slot" data-reveal>车上</div>
+            <div class="clip-slot" data-reveal>赛后</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section team-section" aria-labelledby="team-title">
+        <div class="section-title" data-reveal>
+          <h2 id="team-title">5 人小队</h2>
+          <p>先放成员卡片结构，之后替换姓名、分工、头像、个人记录和照片。</p>
+        </div>
+        <div class="member-grid">
+          <article class="member-card girl" data-reveal>
+            <div class="avatar-placeholder">01</div>
+            <h3>队员 A</h3>
+            <p>占位：机械 / 控制 / 记录。写一小段她在旅途或比赛中的片段。</p>
+          </article>
+          <article class="member-card girl" data-reveal>
+            <div class="avatar-placeholder">02</div>
+            <h3>队员 B</h3>
+            <p>占位：算法 / 调参 / 后勤。可以补充她负责的关键任务。</p>
+          </article>
+          <article class="member-card girl" data-reveal>
+            <div class="avatar-placeholder">03</div>
+            <h3>队员 C</h3>
+            <p>占位：视觉 / 宣传 / 摄影。适合放随手拍和幕后故事。</p>
+          </article>
+          <article class="member-card boy" data-reveal>
+            <div class="avatar-placeholder">04</div>
+            <h3>队员 D</h3>
+            <p>占位：结构 / 搬运 / 赛场支持。写下最忙的一段经历。</p>
+          </article>
+          <article class="member-card boy" data-reveal>
+            <div class="avatar-placeholder">05</div>
+            <h3>队员 E</h3>
+            <p>占位：电控 / 代码 / 复盘。补上他对比赛的总结。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="archive" class="section archive-section" aria-labelledby="archive-title">
+        <div class="section-title compact" data-reveal>
+          <h2 id="archive-title">之后继续补充的内容</h2>
+          <p>保留 iGEM Wiki 常见的完整归档思路，让页面未来能扩展成正式作品。</p>
+        </div>
+        <div class="archive-list">
+          <article data-reveal>
+            <h3>技术日志</h3>
+            <p>机器人结构、电控、算法调试、失败记录、版本迭代。</p>
+          </article>
+          <article data-reveal>
+            <h3>生活日志</h3>
+            <p>搭车、吃饭、住宿、趣事、互相帮助的瞬间。</p>
+          </article>
+          <article data-reveal>
+            <h3>比赛资料</h3>
+            <p>赛程、规则链接、成绩、队伍展示材料和赛后复盘。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>RoboGame Team Journal · First web draft</p>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
